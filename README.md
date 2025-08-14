@@ -15,7 +15,13 @@ Project contributors:
 
 ## Repository Organisation
 
-The folder `data` includes the datasets used in the paper, whereas the folder `model` includes all MiniZinc model files.
+The repository is organized into the following directories:
+
+- `data`:The datasets used in the paper, see [README.md](data/README.md) for more details.
+- `model`: All (partial) MiniZinc model files, see [README.md](model/README.md) for more details.
+- `raw_results`: Results of individual runs of each solve call made by the experiment scripts (not tracked by git).
+- `results`: Aggregated results of the experiments.
+- `scripts`: Scripts for running experiments and generating results, see [README.md](scripts/README.md) for more details.
 
 ## Reference
 
@@ -40,5 +46,3 @@ If you find the materials in this repository useful and/or you use the data, ple
   annote =	{Keywords: in-station train dispatching, train scheduling, railway scheduling, constraint programming, mixed-integer programming}
 }
 ```
-
-## ...stay tune more to come...

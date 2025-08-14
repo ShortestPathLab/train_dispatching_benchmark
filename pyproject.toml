@@ -1,0 +1,18 @@
+[project]
+name = "train-dispatching-benchmark"
+version = "0.1.0"
+description = "Benchmarking scripts for the in-station dispatching constraint models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["minizinc>=0.10.0", "mzn-bench>=0.1.0"]
+
+[dependency-groups]
+dev = [
+	"matplotlib>=3.10.5",
+	"mzn-bench[plotting,scripts]>=0.1.0",
+	"pandas>=2.3.1",
+	"ruff>=0.12.8",
+]
+
+[tool.uv.sources]
+mzn-bench = { git = "https://github.com/MiniZinc/mzn-bench.git", rev = "feat/mult_model" }

@@ -1,1 +1,7 @@
 *~
+
+.ropeproject
+.ruff_cache
+.venv/
+
+raw_results/

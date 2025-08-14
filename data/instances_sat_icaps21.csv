@@ -1,0 +1,10 @@
+problem,model,data_file
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/1TrainOrigin.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/1TrainDestination.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/1TrainNoStop.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/1TrainStop.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/3Trains_2Stop_1Destination.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/4Trains_2Stop_1Origin_1Destination.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/2TrainStop.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/5Trains.dzn
+icaps21,../models/solve_sat.mzn:../models/pddl-print.mzn,icaps21/3TrainStop.dzn
